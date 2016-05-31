@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StudentsList>
+  <Student>
+    <FullName>John Smith</FullName>
+    <Age>19</Age>
+    <Address>Lviv</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Kate Ohara</FullName>
+    <Age>20</Age>
+    <Address>Vinnicya</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Mike Stone</FullName>
+    <Age>18</Age>
+    <Address>Kyiv</Address>
+    <Phone>654321</Phone>
+  </Student>
+  <Student>
+    <FullName>John Snow</FullName>
+    <Age>19</Age>
+    <Address>Lviv</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Kate Winslet</FullName>
+    <Age>20</Age>
+    <Address>Vinnicya</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Mike Snouden</FullName>
+    <Age>18</Age>
+    <Address>Kyiv</Address>
+    <Phone>654321</Phone>
+  </Student>
+  <Student>
+    <FullName>John Harris</FullName>
+    <Age>19</Age>
+    <Address>Lviv</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Ciara Sahara</FullName>
+    <Age>20</Age>
+    <Address>Vinnicya</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Mike Posner</FullName>
+    <Age>18</Age>
+    <Address>Kyiv</Address>
+    <Phone>654321</Phone>
+  </Student>
+  <Student>
+    <FullName>David Guetta</FullName>
+    <Age>19</Age>
+    <Address>Lviv</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Amy Winehouse</FullName>
+    <Age>20</Age>
+    <Address>Vinnicya</Address>
+    <Phone>123456</Phone>
+  </Student>
+  <Student>
+    <FullName>Peter Handsome</FullName>
+    <Age>18</Age>
+    <Address>Kyiv</Address>
+    <Phone>654321</Phone>
+  </Student>
+</StudentsList> 

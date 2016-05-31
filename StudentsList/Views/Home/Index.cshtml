@@ -1,0 +1,44 @@
+﻿@model StudentsList.Models.Students
+
+@{
+    ViewBag.Title = "Index";
+}
+<html>
+<head>
+  <title>Students</title>   
+  <link href="~/Assets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+<header class="lv-bg">
+    <h1 class="site-title">Students list</h1>
+    <p>Simple example</p>
+</header>
+
+<form method="post" action="/Home/Sort">
+    <table>
+        <tr>
+            <td>
+                <p>Type student name:</p></td>
+            <td><input type="text" name="studentName"/> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Search"/> </td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+    
+<div class="container-fluid inner">
+    <table class="tableizer-table">
+        <tr class="tableizer-firstrow"><th>Full Name</th><th>Age</th><th>Address</th><th>Phone Number</th></tr>
+        @foreach (var student in Model.StudentsList)
+        {
+            <tr><td>@student.FullName</td><td>@student.Age</td><td>@student.Address</td><td>@student.Phone</td></tr>
+        }
+    </table>
+</div>
+</body>
+</html>
+
+
